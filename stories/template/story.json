@@ -25,7 +25,7 @@
       "id": "kakao-seongbini",
       "name": "성비니",
       "phone": "",
-      "avatar": "/story-assets/kakao-avatar.jpg",
+      "avatar": "/story-assets/83b0e2830a1b4f8c976dc106fb878bffc0a3e38b.jpeg",
       "bio": ""
     },
     {
@@ -312,20 +312,6 @@
     ]
   },
   "variables": {},
-  "events": [
-    {
-      "id": "incoming-kakao-call",
-      "label": "성비니来电",
-      "type": "start",
-      "actions": [
-        {
-          "type": "call",
-          "key": "kakao",
-          "value": "성비니"
-        }
-      ],
-      "next": []
-    }
-  ],
+  "events": [],
   "tests": []
 }
