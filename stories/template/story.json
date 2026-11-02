@@ -2,15 +2,15 @@
   "scriptVersion": 1,
   "id": "ui-test-phone-v2",
   "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 3,
+  "description": "精简社交手机模板：使用提供的原始照片作为锁屏、Instagram 内容与相册素材。",
+  "revision": 4,
   "phone": {
     "owner": "玩家",
     "date": "2026-10-25",
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26",
+    "wallpaper": "user-photo",
     "passcode": "0622"
   },
   "installedApps": [
@@ -21,6 +21,13 @@
     "kakao"
   ],
   "contacts": [
+    {
+      "id": "kakao-seongbini",
+      "name": "성비니",
+      "phone": "",
+      "avatar": "/story-assets/kakao-avatar.jpg",
+      "bio": ""
+    },
     {
       "id": "kakao-contact-1",
       "name": "윤애찬",
@@ -87,8 +94,133 @@
   ],
   "chats": [],
   "content": {
-    "photos": [],
-    "instagram": []
+    "photos": [
+      {
+        "id": "photo-lockscreen",
+        "title": "手机壁纸",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "kind": "image",
+        "media": "/story-assets/IMG_4092.jpeg",
+        "folder": "照片"
+      },
+      {
+        "id": "photo-ig-avatar",
+        "title": "Instagram头像",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "kind": "image",
+        "media": "/story-assets/IMG_4091.jpeg",
+        "folder": "照片"
+      },
+      {
+        "id": "photo-ig-post-1",
+        "title": "日常",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "kind": "image",
+        "media": "/story-assets/5fe336b65c824bb0be61b229a182fa64df408436.jpeg",
+        "folder": "照片"
+      },
+      {
+        "id": "photo-ig-post-2",
+        "title": "随手拍",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "kind": "image",
+        "media": "/story-assets/99bdeec1beb00af8be24f545e86dcf82b6957acd.jpeg",
+        "folder": "照片"
+      },
+      {
+        "id": "photo-kakao-avatar",
+        "title": "KakaoTalk头像",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "kind": "image",
+        "media": "/story-assets/83b0e2830a1b4f8c976dc106fb878bffc0a3e38b.jpeg",
+        "folder": "照片"
+      },
+      {
+        "id": "photo-ig-post-3",
+        "title": "零食",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "kind": "image",
+        "media": "/story-assets/1ec4798d16d5ebad00e35390fe51002773aac30d(1).jpeg",
+        "folder": "照片"
+      },
+      {
+        "id": "photo-ig-story",
+        "title": "拉面",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "kind": "image",
+        "media": "/story-assets/db3fd45527b8a4e521f51dfa89e3c6163f486ad1.jpeg",
+        "folder": "快拍"
+      }
+    ],
+    "instagram": [
+      {
+        "id": "ig-post-1",
+        "title": "日常",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "avatar": "/story-assets/IMG_4091.jpeg",
+        "kind": "image",
+        "media": "/story-assets/5fe336b65c824bb0be61b229a182fa64df408436.jpeg",
+        "likes": 128,
+        "comments": [],
+        "meta": {}
+      },
+      {
+        "id": "ig-post-2",
+        "title": "",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "avatar": "/story-assets/IMG_4091.jpeg",
+        "kind": "image",
+        "media": "/story-assets/99bdeec1beb00af8be24f545e86dcf82b6957acd.jpeg",
+        "likes": 96,
+        "comments": [],
+        "meta": {}
+      },
+      {
+        "id": "ig-post-3",
+        "title": "",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "avatar": "/story-assets/IMG_4091.jpeg",
+        "kind": "image",
+        "media": "/story-assets/1ec4798d16d5ebad00e35390fe51002773aac30d(1).jpeg",
+        "likes": 143,
+        "comments": [],
+        "meta": {}
+      },
+      {
+        "id": "ig-story-1",
+        "title": "오늘",
+        "body": "",
+        "time": "2026-11-03 20:30",
+        "sender": "성비니",
+        "avatar": "/story-assets/IMG_4091.jpeg",
+        "kind": "image",
+        "media": "/story-assets/db3fd45527b8a4e521f51dfa89e3c6163f486ad1.jpeg",
+        "folder": "快拍",
+        "meta": {
+          "story": "true"
+        }
+      }
+    ]
   },
   "variables": {},
   "events": [],
