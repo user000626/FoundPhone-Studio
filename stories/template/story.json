@@ -92,7 +92,83 @@
       "bio": ""
     }
   ],
-  "chats": [],
+  "chats": [
+    {
+      "id": "kakao-main-chat",
+      "app": "kakao",
+      "title": "성비니",
+      "participants": [
+        "owner",
+        "kakao-seongbini"
+      ],
+      "messages": [
+        {
+          "id": "kakao-msg-01",
+          "title": "성비니",
+          "body": "자기야 집에 들어줘ㅠ",
+          "time": "2026-11-03 20:31",
+          "sender": "성비니",
+          "senderId": "kakao-seongbini"
+        },
+        {
+          "id": "kakao-msg-02",
+          "title": "성비니",
+          "body": "지금 애교 부리고 있어?",
+          "time": "2026-11-03 20:32",
+          "sender": "玩家",
+          "senderId": "owner"
+        },
+        {
+          "id": "kakao-msg-03",
+          "title": "성비니",
+          "body": "ㅇ 보고싶어서",
+          "time": "2026-11-03 20:32",
+          "sender": "성비니",
+          "senderId": "kakao-seongbini"
+        },
+        {
+          "id": "kakao-msg-04",
+          "title": "성비니",
+          "body": "헐?? 알았어",
+          "time": "2026-11-03 20:33",
+          "sender": "玩家",
+          "senderId": "owner"
+        },
+        {
+          "id": "kakao-msg-05",
+          "title": "성비니",
+          "body": "알아면 빨리 들어가",
+          "time": "2026-11-03 20:33",
+          "sender": "성비니",
+          "senderId": "kakao-seongbini"
+        },
+        {
+          "id": "kakao-msg-06",
+          "title": "성비니",
+          "body": "오케이!!",
+          "time": "2026-11-03 20:34",
+          "sender": "玩家",
+          "senderId": "owner"
+        },
+        {
+          "id": "kakao-msg-07",
+          "title": "성비니",
+          "body": "같이 밥 먹자",
+          "time": "2026-11-03 20:35",
+          "sender": "성비니",
+          "senderId": "kakao-seongbini"
+        },
+        {
+          "id": "kakao-msg-08",
+          "title": "성비니",
+          "body": "사랑해♡",
+          "time": "2026-11-03 20:45",
+          "sender": "성비니",
+          "senderId": "kakao-seongbini"
+        }
+      ]
+    }
+  ],
   "content": {
     "photos": [
       {
@@ -219,10 +295,37 @@
         "meta": {
           "story": "true"
         }
+      },
+      {
+        "id": "ig-dm-seongbini",
+        "title": "성비니",
+        "body": "왜 카카오톡 답장 안 해..",
+        "time": "2026-11-03 20:36",
+        "sender": "성비니",
+        "avatar": "/story-assets/IMG_4091.jpeg",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "conversationId": "instagram-dm-seongbini"
+        }
       }
     ]
   },
   "variables": {},
-  "events": [],
+  "events": [
+    {
+      "id": "incoming-kakao-call",
+      "label": "성비니来电",
+      "type": "start",
+      "actions": [
+        {
+          "type": "call",
+          "key": "kakao",
+          "value": "성비니"
+        }
+      ],
+      "next": []
+    }
+  ],
   "tests": []
 }
